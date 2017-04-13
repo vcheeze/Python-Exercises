@@ -1,5 +1,5 @@
-values = raw_input("Please enter comma separated numbers: ")
+values = input("Please enter comma separated numbers: ")
 list = values.split(",")
 tuple = tuple(list)
-print "List: ", list
-print "Tuple: ", tuple
+print("List: ", list)
+print("Tuple: ", tuple)
